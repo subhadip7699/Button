@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Button & Link</title>
+    <style>
+        button {
+            border-radius: 20px; 
+            color: black;
+            background-color: aqua;
+            transition: 0.3s;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        
+        a {
+            color: green;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:active {
+            color: rgb(37, 12, 233);
+        }
+        button:active{
+            color: rgb(37, 12, 233);
+            background-color: white;
+        }
+    </style>
+</head>
+        <body>
+    <button>Hover me!</button>
+    <br><br>
+    <a href="#">Touch or Hover this link</a>
+</body>
+</html>
+
